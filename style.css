@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+    font-family: tahoma;
+}
+div.box {
+    width: 40%;
+    margin: auto;
+    margin-top: 15%;
+    background: chocolate;
+    padding: 30px;
+    text-align: center;
+}
+div a{
+    color: chocolate;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    background: #ccc;
+    padding: 10px;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 5px;
+    transition: all 0.1s ease-in;
+
+}
+div a:hover{
+    background: rgb(190, 152, 45);
+    color: #fff;
+    
+}
+div h2 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+/* register page */
+form {
+    background: chocolate;
+}
+form input[type="text"],
+form input[type=email],
+form input[type=password]{
+    display: block;
+    padding: 5px;
+    width: 100%;
+    margin: 5px;
+}
+form input[type=submit] {
+    padding: 7px 20px 7px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: rgb(221, 159, 27);
+    color: aliceblue;
+    font-size: 17px;
+    transition: all 0.2s ease-in;
+    border: none;
+    box-shadow: 2px 2px 8px 1px #503b3b;
+
+}
+form input[type=submit]:hover{
+    background: aliceblue;
+    color: rgb(221, 159, 27);
+}
+.dbmessage {
+    color: rgb(9, 75, 87);
+}
+
+/* chating page styling */
+.chating-fild {
+    width: 40%;
+    margin: auto;
+    margin-top: 10px;
+    background: chocolate;
+    padding: 10px;
+    text-align: left;
+    overflow: hidden;
+    position: relative;
+}
+.message-fild {
+    height: 550px;
+    text-align: left;
+    overflow: auto;
+    
+
+}
+.chating-fild input[type=text] {
+    width: 63%;
+    font-size: 18px;
+    padding: 10px;
+    float: left;
+    margin: 0;
+}
+.chating-fild input[type=submit] {
+    width: 30%;
+    padding: 9px;
+    float: right;
+}
+.chating-fild ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.chating-fild ul li {
+    padding: 10px;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: -3px 1px 7px 0px #5d4747;
+}
+
+.chating-fild ul li span {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #adc1ad;
+    text-shadow: -2px 1px 2px rgba(109, 79, 79, 0.53);
+}
+.chating-fild ul li .messeage {
+    color: #ffffffc9;
+    font-size: 20px;
+    text-shadow: -2px 1px 2px rgba(109, 79, 79, 0.53);
+    padding: 10px;
+}
+.logout {
+    position: absolute;
+    right: 50px;
+    top: 0;
+}
+.logout a {
+    background: #D2691E;
+    color: #fff;
+}
+
